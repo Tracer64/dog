@@ -10,23 +10,23 @@ class Pet:
 class Dog(Pet):
     """ Dog inherits from Pet """
 
+d = Dog('Fluffy')
 
+def speak("Dog")
+d.speak("Fluffy")
+print("Woof")
+
+d.add_weight(12)
+print(d.weight)
+    
 class Cat(Pet):
-    """ Dog inherits from Pet """
+    """ Cat inherits from Pet """
+    
+c = ("Tiger")
 
-c = Dog('Fluffy')
-c.add_weight(12)
-print(c.weight)
+def speak("Cat")
+c.speak("Tiger")
+print("Meow")
 
-# c.name = "Fluffy"
-
-# x = Cat('Spike')
-# x.name = "Spike"
-
-# x.add_weight(12)
-# x.add_wieght(12)
-
-print(c.name)
-
-# print(x.name)
-# print(x.weight)
+c.add_weight(8)
+print(d.weight)
