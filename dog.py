@@ -14,21 +14,6 @@ class Dog(Pet):
                 tried to create below
                 to inside the dog class """
             return "bark"
-
-d = Dog('Fluffy')
-
-# I think there is a couple of problems with this
-# to create a function outside of a class, you need to have a : at the end
-# however you really want to put this function inside a class
-# a function inside a class is called a method
-
-# def speak("Dog")
-# d.speak("Fluffy")
-print(d.speak())
-# print("Woof")
-
-d.add_weight(12)
-print(d.weight)
     
 class Cat(Pet):
     """ Cat inherits from Pet """
@@ -39,12 +24,14 @@ class Cat(Pet):
             it will use the default value of meow """
         self.voice = voice
         return self.voice
-# c = ("Tiger")
+
+d = Dog('Fluffy')
+print(d.speak())
+
+d.add_weight(12)
+print(d.weight)
+
 c = Cat("Tiger")
-# same problems here as above
-# def speak("Cat")
-# c.speak("Tiger")
-# print("Meow")
 
 
 print(c.speak())
